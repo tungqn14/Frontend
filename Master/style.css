@@ -1,4 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#3f87a6, #ebf8e1, #f69d3c);
+    min-height: 100vh;
+    z-index: -999;
+}
+
+nav.navigation{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    height: 60px;
+    box-shadow: 0 25px 35px rgb(0,0,0, 0.1);
+    background-color: white;
+}
+nav.navvigation .userBx{
+    
 }
